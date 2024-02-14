@@ -29,6 +29,12 @@ body {
         color: #fff;
         margin-right: 50px;
         text-decoration: none;
+
+        transition: color .3s ease;
+    }
+
+    nav a:hover {
+        color: #018ABE;
     }
 
     nav a:last-of-type {
@@ -40,5 +46,52 @@ body {
         padding: 9px 15px;
         border-radius: 3px;
         text-decoration: none;
+        color: #fff;
+        transition: all .2s ease;
+    }
+
+    .button-header:hover {
+        background-color: #fff;
+        color: #018ABE;
+    }
+
+    /*MAIN*/
+
+    .main-inner {
+        background-image: url(../web-learning/images/unsplash_S-llxYh3GzI.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        height: 600px;
+        border-radius: 10px;
+        margin-bottom: 150px;
+
+        text-align: center;
+    }
+
+    .main-inner-first {
+        padding-top: 135px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 40px;
+    }
+
+    .main-inner-first p {
+        font-size: 24px;
+        font-weight: bold;
+        color: #fff;
+        margin-right: 66px;
+        margin-left: 66px;
+    }
+
+    .main-inner-first img {
+        width: 28px;
+        height: 14px;
+    }
+
+    .main-inner h1 {
+        font-size: 64px;
+        font-weight: bold;
         color: #fff;
     }
