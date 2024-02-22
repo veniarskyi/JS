@@ -95,3 +95,73 @@ body {
         font-weight: bold;
         color: #fff;
     }
+
+    /* SEANS */
+
+    .seans {
+        padding-bottom: 150px;
+    }
+
+    .seans-title {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        margin-bottom: 100px;
+    }
+
+    .seans-title p {
+        font-size: 42px;
+        font-weight: 800;
+        color: #fff;
+
+        margin-right: 45px;
+        margin-left: 45px;
+    }
+
+    .seans-inner {
+        display: flex;
+        justify-content: center;
+        align-items: center; 
+    }
+
+    .seans-item {
+        background-image: url(../web-learning/images/title.png);
+        width: 400px;
+        height: 258px;
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        border-radius: 10px;
+        margin: 5px;
+        position: relative;
+    }
+
+    .seans-item p {
+        color: #fff;
+        font-size: 24px;
+        font-weight: 800px;
+        position: absolute;
+        left: 30px;
+        bottom: 40px;
+      
+    }
+
+    .seans-item .left p {
+        left: 50px;
+        bottom: 50px;
+    }
+
+    .left {
+        height: 527px;
+        border-bottom: #018ABE 7px solid;
+    }
+
+    .seans-right {
+        display: flex;
+    }
+
+    .seans-right div {
+        display: flex;
+        flex-direction: column;
+    }
